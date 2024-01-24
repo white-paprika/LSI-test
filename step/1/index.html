@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+
+    <title>Step 1</title>
+</head>
+<body>
+    <div class="container">
+        <form class="mt-5" action="action.php" method="POST">
+            <div class="mb-3">
+                <label for="lkName" class="form-label">Введите имя нового ЛК</label>
+                <input type="text" name="lk-name" class="form-control" id="lkName">
+                <div id="lkNameHelp" class="form-text">Имя должно состоять из английских прописных букв от a до z, может содержать знак минус "-".</div>
+            </div>
+            <div class="mb-3">
+                <label for="clientName" class="form-label">Введите название клиента на русском</label>
+                <input type="text" name="client-name" class="form-control" id="clientName">
+            </div>
+            <input class="btn btn-primary" type="submit" name="submit" value="Далее">
+        </form>
+    </div>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
