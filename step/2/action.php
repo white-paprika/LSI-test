@@ -12,6 +12,7 @@ $lkName = $_SESSION['lk-name'];
 $users = $_POST['users'];
 
 @touch(ROOT_DIRECTORY . '/files/step/' . $lkName . '/step_2.txt');
+file_put_contents(ROOT_DIRECTORY . '/files/step/' . $lkName . '/step_2.txt', '');
 
 foreach ($users as $user){
     $writeString = $lkName . '|' . $user['email'] . '|' . $user['name'];
