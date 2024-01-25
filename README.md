@@ -1,10 +1,11 @@
-# LSI-test
+# Тестовое задание (LSI)
+## Чтобы развернуть локально
 
-<p>Открыть директорию, в которой будет находиться папка проекта, запустить оттуда gitBash, ввести команду:</p>
-<strong><code>git clone git@github.com:white-paprika/LSI-test.git</code></strong><br>
+* Открыть директорию, в которой будет находиться папка проекта, запустить оттуда gitBash и ввести команду: <br>
+<code>git clone git@github.com:white-paprika/LSI-test.git</code>
 
-<strong>Поместить папку проекта в папку domains интерфейса OpenServer</strong><br>
+* Поместить папку проекта в папку domains интерфейса OpenServer
 
-<strong>Запустить сервер локально (Run server)</strong><br>
+* Запустить сервер локально (Run server)
 
-<strong>Открыть проект из My Projects</strong><br>
+* Открыть проект в браузере из My Projects
