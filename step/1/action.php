@@ -11,6 +11,11 @@ if (!isset($_POST['submit'])){
 $lkName = $_POST['lk-name'];
 $clientName = $_POST['client-name'];
 
+if (!preg_match('/^[a-z\-]+$/', $lkName)) {
+    header('Location: /index.php');
+    exit();
+}
+
 $writeString = $lkName . '|' . $clientName;
 
 @mkdir(ROOT_DIRECTORY . '/files/step/' . $lkName, 0777, true);
