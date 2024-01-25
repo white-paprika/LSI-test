@@ -1,11 +1,11 @@
 # LSI-test
 
-<p> Clone directory </p>
+<p> Склонировать репозиторий </p>
 
 <strong><code>git clone git@github.com:white-paprika/LSI-test.git</code></strong><br>
 
-<strong>Place project to .htdocs in XAMPP or domains in OpenServer</strong><br>
+<strong>Поместить папку проекта в папку domains интерфейса OpenServer</strong><br>
 
-<strong>Run server</strong><br>
+<strong>Запустить сервер локально (Run server)</strong><br>
 
-<strong>Run project</strong><br>
+<strong>Открыть проект из My Projects</strong><br>
