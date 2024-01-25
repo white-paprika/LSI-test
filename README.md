@@ -1,7 +1,6 @@
 # LSI-test
 
-<p> Склонировать репозиторий </p>
-
+<p>Открыть директорию, в которой будет находиться папка проекта, запустить оттуда gitBash, ввести команду:</p>
 <strong><code>git clone git@github.com:white-paprika/LSI-test.git</code></strong><br>
 
 <strong>Поместить папку проекта в папку domains интерфейса OpenServer</strong><br>
